@@ -2,9 +2,11 @@
 
 from random import*
 from subprocess import call
+from interface import MenuRelatorio
 from interface import MenuPedido
 
 menuPedido = MenuPedido
+menuRelatorio = MenuRelatorio
 
 def mostrarLogo():
     tipo = randint(0,6)
@@ -61,4 +63,4 @@ def mostrarListaPizza(listaPizza):
     print("")
 
 def mostrarRelatorio():
-    print("Comprei um Patin")
+    menuRelatorio.mostrar()
