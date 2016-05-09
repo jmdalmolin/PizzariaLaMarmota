@@ -6,14 +6,16 @@ from interface import RelatorioVendas
 from interface import SelecaoSabor
 from interface import SelecaoTamanho
 from interface import Menu
+from interface import SelecaoTipo
 from interface import ConfirmarCompra
 
 
 menu = Menu
 selecaoTamanho = SelecaoTamanho
+selecaoTipo = SelecaoTipo
 selecaoSabor = SelecaoSabor
-relatorioVendas = RelatorioVendas
 confirmarCompra = ConfirmarCompra
+relatorioVendas = RelatorioVendas
 
 
 def mostrarLogo():
@@ -65,13 +67,21 @@ def mostrarSelecaoTamanho():
     mostrarLogo()
     selecaoTamanho.mostrar()
 
-def mostrarListaPizza(tipoSabor, quantidade):
+def mostrarSelecaoTipo(pizza):
     mostrarLogo()
-    selecaoSabor.mostrar(tipoSabor, quantidade)
+    selecaoTipo.mostrar(pizza)
+
+def mostrarSelecaoSabor(pizza):
+    mostrarLogo()
+    selecaoSabor.mostrar(pizza)
+
+
+def mostrarConfirmarCompra(pedido):
+    mostrarLogo()
+    confirmarCompra.mostrar(pedido)
+
 
 def mostrarRelatorio():
     mostrarLogo()
     relatorioVendas.mostrar()
 
-def mostrarConfirmarCompra(pedido):
-    confirmarCompra.mostrar(pedido)

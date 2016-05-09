@@ -12,9 +12,9 @@ def selecionar():
         escolha = int(input())
 
         if (escolha == 1):
-            print("Pedido confirmado! Agradecemos sua preferencia")
+            print("Pedido confirmado! Agradecemos sua preferência")
         elif (escolha == 2):
-            print("Pedido cacelado")
+            print("Pedido cancelado")
         else:
-            print("Opcao invalida, favor digite uma valida:")
+            print("Opção inválida. Por favor digite uma válida:")
             selecionar()

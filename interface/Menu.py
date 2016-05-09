@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+
 from interface import Interface
 
 i = Interface
@@ -20,5 +21,5 @@ def selecionar():
         elif (escolha == 0):
             print("")
         else:
-            print("Opcao inválida. Por favor digite uma válida:")
+            print("Opcao inválida. Por favor digite uma válida")
             selecionar()

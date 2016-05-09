@@ -6,11 +6,11 @@ from controle import Controlador
 i = Interface
 c = Controlador
 
-sabores = preco = 0
+pizza = []
+
 
 def mostrar():
     listaPreco = c.listar('listas\\tamanhos_precos.csv')
-    listaPreco = listaPreco
     print("----------------------------------------------------------------")
     print("----------------------- T A M A N H O S ------------------------")
     print("----------------------------------------------------------------")
@@ -25,30 +25,12 @@ def mostrar():
 
     for linha in listaPreco:
         if linha[0] == codigo:
-            sabores = linha[2]
-            preco = linha[4]
-
-    mostrarTipoPizza()
-
-
-
-def mostrarTipoPizza():
-
-    print("\n1 Doces")
-    print("2 Salgadas")
-    print("0 Cancelar Pedido")
-    tipoPizza = int(input("Quais tipos de sabores deseja escolher para pizza?"))
-
-    while (tipoPizza):
-        if tipoPizza == 1:
-            print(sabores)
-            print(preco)
-            i.mostrarListaPizza(tipoPizza, sabores)
+            pizza[0] = linha[1]
+            pizza[1] = linha[2]
+            pizza[2] = linha[3]
             break
-        elif tipoPizza == 2:
-            i.mostrarListaPizza(tipoPizza, sabores)
-            break
-        elif tipoPizza == 0:
-            print("Pedido Cancelado")
-        else:
-            tipoPizza = int(input("Digite um código válido"))
+
+    i.mostrarSelecaoTipo(pizza)
+
+
+
