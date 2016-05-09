@@ -5,7 +5,7 @@ import csv
 def listar(caminhoArquivo):
     arquivo = open(caminhoArquivo, 'r')
 
-    reader  = csv.reader(arquivo, delimiter=',')
+    reader = csv.reader(arquivo, delimiter=',')
 
     lista = []
 

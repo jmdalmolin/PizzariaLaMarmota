@@ -7,23 +7,7 @@ from interface import Interface
 c = Controlador
 i = Interface
 
-i.mostrarMenuPrincipal()
-e = int(input(()))
-
-while(e):
-
-    if e == 1:
-        i.mostrarMenuPedido(c.listar('listas\\tamanhos_precos.csv'))
-        e = 0
-    elif e == 2:
-        i.mostrarRelatorio()
-        e = 0
-    elif e == 0:
-        exit()
-
-    else:
-        print("Digite um opção válida:")
-        e = int(input(()))
+i.mostrarMenu()
 
 
 

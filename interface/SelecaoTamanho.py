@@ -1,14 +1,18 @@
+# -*- coding: UTF-8 -*-
 
 from interface import Interface
+from controle import Controlador
 
-# lista = []
 i = Interface
+c = Controlador
 
-def mostrar(listaPreco):
-    flag = 0
+sabores = preco = 0
+
+def mostrar():
+    listaPreco = c.listar('listas\\tamanhos_precos.csv')
     listaPreco = listaPreco
     print("----------------------------------------------------------------")
-    print("--------------- T A M A N H O S  E  P R E C O S ----------------")
+    print("----------------------- T A M A N H O S ------------------------")
     print("----------------------------------------------------------------")
     print("Cód.    |Tamanho           |Sabores        |Fatias        |Preço")
 
@@ -26,6 +30,8 @@ def mostrar(listaPreco):
 
     mostrarTipoPizza()
 
+
+
 def mostrarTipoPizza():
 
     print("\n1 Doces")
@@ -35,10 +41,12 @@ def mostrarTipoPizza():
 
     while (tipoPizza):
         if tipoPizza == 1:
-            i.mostrarListaPizza('listas\\pizzas_doces.csv')
+            print(sabores)
+            print(preco)
+            i.mostrarListaPizza(tipoPizza, sabores)
             break
         elif tipoPizza == 2:
-            i.mostrarListaPizza('listas\\pizzas_salgadas.csv')
+            i.mostrarListaPizza(tipoPizza, sabores)
             break
         elif tipoPizza == 0:
             print("Pedido Cancelado")

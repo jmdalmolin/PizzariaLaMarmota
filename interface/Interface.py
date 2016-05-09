@@ -2,11 +2,19 @@
 
 from random import*
 from subprocess import call
-from interface import MenuRelatorio
-from interface import MenuPedido
+from interface import RelatorioVendas
+from interface import SelecaoSabor
+from interface import SelecaoTamanho
+from interface import Menu
+from interface import ConfirmarCompra
 
-menuPedido = MenuPedido
-menuRelatorio = MenuRelatorio
+
+menu = Menu
+selecaoTamanho = SelecaoTamanho
+selecaoSabor = SelecaoSabor
+relatorioVendas = RelatorioVendas
+confirmarCompra = ConfirmarCompra
+
 
 def mostrarLogo():
     tipo = randint(0,6)
@@ -49,18 +57,21 @@ def mostrarLogo():
 
 
 
-def mostrarMenuPrincipal():
-    print("1 Fazer Pedido")
-    print("2 Ver Relatório")
-    print("0 Sair")
-
-def mostrarMenuPedido(listaPreco):
+def mostrarMenu():
     mostrarLogo()
-    menuPedido.mostrar(listaPreco)
+    menu.mostrar()
 
-def mostrarListaPizza(listaPizza):
+def mostrarSelecaoTamanho():
+    mostrarLogo()
+    selecaoTamanho.mostrar()
 
-    print("")
+def mostrarListaPizza(tipoSabor, quantidade):
+    mostrarLogo()
+    selecaoSabor.mostrar(tipoSabor, quantidade)
 
 def mostrarRelatorio():
-    menuRelatorio.mostrar()
+    mostrarLogo()
+    relatorioVendas.mostrar()
+
+def mostrarConfirmarCompra(pedido):
+    confirmarCompra.mostrar(pedido)
