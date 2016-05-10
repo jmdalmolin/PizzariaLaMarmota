@@ -4,11 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/interface/RelatorioVendas.py" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39dbb72b-e5c3-4212-abc3-74094270a63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/ConfirmarCompra.py" afterPath="$PROJECT_DIR$/interface/ConfirmarCompra.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/SelecaoTipo.py" afterPath="$PROJECT_DIR$/interface/SelecaoTipo.py" />
-    </list>
+    <list default="true" id="39dbb72b-e5c3-4212-abc3-74094270a63a" name="Default" comment="" />
     <ignored path="PizzariaLaMarmota.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -522,7 +518,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
