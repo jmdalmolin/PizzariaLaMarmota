@@ -6,7 +6,7 @@ c = Controlador
 
 def mostrar(pedido,tamanho,sabores, valor):
     print("----------------------------------------------------------------")
-    print("------------------- T I P O  D A  P I Z Z A --------------------")
+    print("--------------- C O N F I R M A R   C O M P R A  ---------------")
     print("----------------------------------------------------------------")
 
     print("\n" + tamanho + "       R$ " + valor + ",00")
