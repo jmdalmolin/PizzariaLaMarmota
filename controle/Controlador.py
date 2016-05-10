@@ -31,7 +31,7 @@ def registrarVenda(pedido, tamanho, sabores, valor):
                 linha[2] = str(x)
         else:
             for sabor in pedido:
-                if sabor[0] == linha[1]:
+                if sabor == linha[1]:
                     x = int(linha[2]) + 1
                     linha[2] = str(x)
 
