@@ -5,6 +5,9 @@ from controle import Controlador
 c = Controlador
 
 def mostrar(pedido,tamanho,sabores, valor):
+    print("----------------------------------------------------------------")
+    print("------------------- T I P O  D A  P I Z Z A --------------------")
+    print("----------------------------------------------------------------")
 
     print("\n" + tamanho + "       R$ " + valor + ",00")
     for linha in pedido:
