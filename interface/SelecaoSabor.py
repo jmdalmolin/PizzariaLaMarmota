@@ -23,7 +23,7 @@ def mostrar(tipo, tamanho,sabores,valor):
         print("[ " + linha[0] + " ]    |" + linha[1])
         dicSabores[int(linha[0])] = linha[1]
     print("----------------------------------------------------------------")
-    print("Qual(is) Sabor(es)?")
+    print("Qual(is) Sabor(es)?" )
 
 
     pedido = []
@@ -42,7 +42,7 @@ def mostrar(tipo, tamanho,sabores,valor):
 
     else:
         if sabor != 0:
-            print("Pedido Encaminhado")
+            print('\033[1;32mPedido Encaminhado \033[1;m')
             i.mostrarConfirmarCompra(pedido,tamanho,sabores, valor)
         else:
-            print("Pedido cancelado")
+            print('\033[1;31mPedido cancelado \033[1;m')

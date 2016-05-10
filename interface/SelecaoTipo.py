@@ -1,16 +1,28 @@
 
 from interface import Interface
+from random import*
 
 i = Interface
 
 def mostrar(tamanho,sabores,valor):
-    print("----------------------------------------------------------------")
-    print("------------------- T I P O  D A  P I Z Z A --------------------")
-    print("----------------------------------------------------------------")
-    print("1 Doces")
-    print("2 Salgadas")
-    print("0 Cancelar Pedido")
-    print("Qual tipo de sabor desejas escolher para pizza?")
+
+    cor = randint(0,1)
+    if(cor == 0):
+        print('\033[1;33m---------------------------------------------------------------- \033[1;m')
+        print('\033[1;33m------------------- T I P O  D A  P I Z Z A -------------------- \033[1;m')
+        print('\033[1;33m---------------------------------------------------------------- \033[1;m')
+    elif(cor == 1):
+        print('\033[1;32m---------------------------------------------------------------- \033[1;m')
+        print('\033[1;32m------------------- T I P O  D A  P I Z Z A -------------------- \033[1;m')
+        print('\033[1;32m---------------------------------------------------------------- \033[1;m')
+    elif(cor == 2):
+        print('\033[1;34m---------------------------------------------------------------- \033[1;m')
+        print('\033[1;34m------------------- T I P O  D A  P I Z Z A -------------------- \033[1;m')
+        print('\033[1;34m---------------------------------------------------------------- \033[1;m')
+    print('\033[1;37m1 Doces \033[1;m')
+    print('\033[1;37m2 Salgadas \033[1;m')
+    print('\033[1;37m0 Cancelar Pedido \033[1;m')
+    print('\033[1;37mQual tipo de sabor desejas escolher para pizza? \033[1;m')
     selecionar(tamanho,sabores,valor)
 
 def selecionar(tamanho,sabores,valor):

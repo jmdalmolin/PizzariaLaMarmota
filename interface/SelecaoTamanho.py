@@ -22,7 +22,7 @@ def mostrar():
               + "    |R$ " + linha[4])
 
     print("----------------------------------------------------------------")
-    codigo = int(input("Qual tamanho de pizza?"))
+    codigo = int(input("Qual tamanho de pizza?" ))
 
     for linha in listaPreco:
         if int(linha[0]) == codigo:
