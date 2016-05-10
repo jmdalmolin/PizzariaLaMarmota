@@ -6,43 +6,43 @@ from interface import Interface
 c = Controlador
 i = Interface
 
-def mostrar(pizza):
+def mostrar(tipo, tamanho,sabores,valor):
     listaSabores = []
+    dicSabores = {}
     print("----------------------------------------------------------------")
-    if pizza[3] == 1:
+    if tipo == 1:
         print("------------------- P I Z Z A S   D O C E S --------------------")
         listaSabores = c.listar('listas\\pizzas_doces.csv')
     else:
         print("---------------- P I Z Z A S   S A L G A D A S -----------------")
-        listaSabores = c.listar('listas\\pizzas_doces.csv')
+        listaSabores = c.listar('listas\\pizzas_salgadas.csv')
     print("----------------------------------------------------------------")
     print("Código    | Sabor")
 
     for linha in listaSabores:
         print("[ " + linha[0] + " ]    |" + linha[1])
-
+        dicSabores[int(linha[0])] = linha[1]
     print("----------------------------------------------------------------")
     print("Qual(is) Sabor(es)?")
 
 
+    pedido = []
+    sabor = -1
     x = 0
-    #
-    # while x < :
-    #     flag = 0
-    #     sabor = int(input())
-    #     while linha in listaSabores:
-    #         if linha[0] == sabor:
-    #             pedido.append(linha[1])
-    #             flag = 1
-    #             x = x + 1
-    #     else:
-    #         if flag:
-    #             if x == quantidade:
-    #                 print("Pedido Encaminhado")
-    #             else:
-    #                 print("Próximo sabor:")
-    #         else:
-    #             print("Sabor não encontrado. Por favor, digite outro sabor")
-    #             x = x - 1
-    #
-    # i.mostrarConfirmarCompra(pedido)
+
+    while x < sabores and sabor != 0:
+        sabor = int(input())
+        if sabor in dicSabores:
+            pedido.append(dicSabores[sabor])
+            if x != sabores -1:
+                print("Próximo sabor:")
+            x = x + 1
+        else:
+            print("Sabor não encontrado. Por favor, digite outro sabor")
+
+    else:
+        if sabor != 0:
+            print("Pedido Encaminhado")
+            i.mostrarConfirmarCompra(pedido,tamanho,sabores, valor)
+        else:
+            print("Pedido cancelado")

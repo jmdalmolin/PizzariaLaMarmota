@@ -3,21 +3,19 @@ from interface import Interface
 
 i = Interface
 
-pedido = []
-
-def mostrar(pizza):
+def mostrar(tamanho,sabores,valor):
     print("1 Doces")
     print("2 Salgadas")
     print("0 Cancelar Pedido")
     print("Qual tipo de sabor desejas escolher para pizza?")
-    selecionar(pizza)
+    selecionar(tamanho,sabores,valor)
 
-def selecionar(pizza):
-    pizza[3] = int(input())
-    if pizza[3] == 1 or pizza[3] == 2:
-        i.mostrarSelecaoSabor(pizza[3])
-    elif pizza[3] == 0:
+def selecionar(tamanho,sabores,valor):
+    tipo = int(input())
+    if tipo == 1 or tipo == 2:
+        i.mostrarSelecaoSabor(tipo, tamanho,sabores,valor)
+    elif tipo == 0:
         print("Pedido Cancelado")
     else:
         print("Digite um código válido")
-        selecionar(pizza)
+        selecionar(tamanho,sabores,valor)

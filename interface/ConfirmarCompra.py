@@ -1,20 +1,30 @@
 # -*- coding: UTF-8 -*-
 
-def mostrar(pedido):
+from controle import Controlador
 
-    print(pedido)
-    # for linha in pedido:
-    #     print("   " + pedido[1])
-    #
-    #     selecionar()
+c = Controlador
 
-def selecionar():
+def mostrar(pedido,tamanho,sabores, valor):
+
+    print("\n" + tamanho + "       R$ " + valor + ",00")
+    for linha in pedido:
+        print("  -  " + linha)
+
+    print("1 Confirmar compra")
+    print("0 Cancelar Pedido")
+
+    selecionar(pedido,tamanho,sabores, valor)
+
+def selecionar(pedido,tamanho, sabores, valor):
         escolha = int(input())
 
         if (escolha == 1):
-            print("Pedido confirmado! Agradecemos sua preferência")
-        elif (escolha == 2):
+            if c.registrarVenda(pedido, tamanho, sabores, valor):
+                print("Pedido confirmado! Agradecemos sua preferência")
+            else:
+                print("Erro ao salvar")
+        elif (escolha == 0):
             print("Pedido cancelado")
         else:
             print("Opção inválida. Por favor digite uma válida:")
-            selecionar()
+            selecionar(pedido,tamanho, sabores, valor)

@@ -19,7 +19,8 @@ def selecionar():
         elif (escolha == 2):
             i.mostrarRelatorio()
         elif (escolha == 0):
-            print("")
+            exit(0)
         else:
             print("Opcao inválida. Por favor digite uma válida")
             selecionar()
+        i.mostrarMenu()
