@@ -6,7 +6,7 @@ i = Interface
 
 def mostrar(tamanho,sabores,valor):
 
-    cor = randint(0,1)
+    cor = randint(0,2)
     if(cor == 0):
         print('\033[1;33m---------------------------------------------------------------- \033[1;m')
         print('\033[1;33m------------------- T I P O  D A  P I Z Z A -------------------- \033[1;m')
@@ -30,7 +30,7 @@ def selecionar(tamanho,sabores,valor):
     if tipo == 1 or tipo == 2:
         i.mostrarSelecaoSabor(tipo, tamanho,sabores,valor)
     elif tipo == 0:
-        print("Pedido Cancelado")
+        print('\031[1;32mPedido Cancelado \033[1;m')
     else:
-        print("Digite um código válido")
+        print('\031[1;32mDigite um código válido \033[1;m')
         selecionar(tamanho,sabores,valor)

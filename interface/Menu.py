@@ -12,7 +12,6 @@ def mostrar():
         print('\033[1;32m2 Ver Relatório \033[1;m')
         print('\033[1;32m0 Sair \033[1;m')
         print('\033[1;32mDigite sua opção\n \033[1;m')
-        selecionar()
     elif(cor == 1):
         print('\033[1;33m1 Fazer Pedido \033[1;m')
         print('\033[1;33m2 Ver Relatório \033[1;m')
@@ -23,6 +22,7 @@ def mostrar():
         print('\033[1;34m2 Ver Relatório \033[1;m')
         print('\033[1;34m0 Sair \033[1;m')
         print('\033[1;34mDigite sua opção\n \033[1;m')
+    selecionar()
 
 def selecionar():
         escolha = int(input())

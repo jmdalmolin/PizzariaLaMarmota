@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39dbb72b-e5c3-4212-abc3-74094270a63a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PizzariaLaMarmota.iml" afterPath="$PROJECT_DIR$/.idea/PizzariaLaMarmota.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/ConfirmarCompra.py" afterPath="$PROJECT_DIR$/interface/ConfirmarCompra.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/Menu.py" afterPath="$PROJECT_DIR$/interface/Menu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/SelecaoSabor.py" afterPath="$PROJECT_DIR$/interface/SelecaoSabor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/SelecaoTamanho.py" afterPath="$PROJECT_DIR$/interface/SelecaoTamanho.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/interface/SelecaoTipo.py" afterPath="$PROJECT_DIR$/interface/SelecaoTipo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registro/vendas.csv" afterPath="$PROJECT_DIR$/registro/vendas.csv" />
@@ -37,8 +33,8 @@
       <file leaf-file-name="SelecaoTamanho.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/SelecaoTamanho.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="e#25#56#0" expanded="true" />
               </folding>
@@ -46,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelecaoTipo.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SelecaoTipo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/interface/SelecaoTipo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="368">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#1#32#0" expanded="true" />
               </folding>
@@ -61,7 +57,7 @@
       <file leaf-file-name="Controlador.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controle/Controlador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="646">
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="e#24#53#0" expanded="true" />
@@ -92,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/Menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="249">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="e#25#56#0" expanded="true" />
               </folding>
@@ -107,8 +103,8 @@
       <file leaf-file-name="ConfirmarCompra.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/ConfirmarCompra.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="-91">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -182,11 +178,11 @@
         <option value="$PROJECT_DIR$/interface/RelatorioVendas.py" />
         <option value="$PROJECT_DIR$/controle/Controlador.py" />
         <option value="$PROJECT_DIR$/registro/vendas.csv" />
-        <option value="$PROJECT_DIR$/interface/SelecaoTamanho.py" />
         <option value="$PROJECT_DIR$/interface/ConfirmarCompra.py" />
         <option value="$PROJECT_DIR$/interface/SelecaoSabor.py" />
-        <option value="$PROJECT_DIR$/interface/SelecaoTipo.py" />
         <option value="$PROJECT_DIR$/interface/Menu.py" />
+        <option value="$PROJECT_DIR$/interface/SelecaoTamanho.py" />
+        <option value="$PROJECT_DIR$/interface/SelecaoTipo.py" />
       </list>
     </option>
   </component>
@@ -297,8 +293,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,16 +303,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\buceta\Documents\GitHub\PizzariaLaMarmota\interface" />
+      <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\listas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\registro" />
       <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\listas" />
       <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\interface" />
       <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\controle" />
       <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\buceta\Documents\GitHub\PizzariaLaMarmota\interface" />
-      <recent name="C:\Users\Joao M. Dalmolin\Documents\GitHub\PizzariaLaMarmota\listas" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Main">
@@ -560,7 +556,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -611,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,11 +949,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/interface/ConfirmarCompra.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-91">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/Menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -973,10 +979,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controle/Controlador.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interface/SelecaoTamanho.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="96">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#25#56#0" expanded="true" />
           </folding>
@@ -985,40 +1009,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/SelecaoTipo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="368">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#1#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controle/Controlador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/ConfirmarCompra.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/Menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
